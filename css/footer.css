@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(37, 194, 90, 0.5);
+    
+}
+.footer-img{
+    width: 200px;
+    height: 80px;
+    margin: 70 0 10 567;
+}
+.footer-ul{
+    margin-left: 530px;
+}
+.footer-ul-li{
+    margin:0 10 60 10;
+    display: inline-block;
+}
+.footer-icon{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.footer-icon:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-p{
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.8);
+}

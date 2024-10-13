@@ -1,0 +1,74 @@
+.blog{
+    width: 100%;
+    height: 55vh;
+    background-image: url(../Images/home4.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+.blog-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.blog-overlay-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.blog-overlay-container-content{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.content-item1, .content-item2{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.content-item2{
+    margin-left: 10%;
+}
+.item1-top, .item2-top{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.item1-img, .item2-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+}
+.item1-h3, .item2-h3{
+    padding-top: 60px;
+    margin-left: 230px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.item1-p, .item2-p{
+    margin-left: 230px;
+    color: rgb(198, 255, 217);
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.content-item1 .content-item1-span, .content-item2 .content-item2-span{
+    margin: 8 0 0 0;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+.content-item1-btn, .content-item2-btn{
+    padding: 5px 5px;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: rgba(186, 255, 209, 0.8);
+    cursor: pointer;
+    margin: 8 0 0 0;
+}
